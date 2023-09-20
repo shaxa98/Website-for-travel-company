@@ -240,7 +240,7 @@ html {
   align-items: flex-end;
   width: 63.4rem;
 }
-.desktop-2-item {
+*/ .desktop-2-item {
   position: absolute;
   top: 311.7rem;
   left: 0;
@@ -1710,6 +1710,11 @@ html {
   background-color: var(--color-whitesmoke);
   left: 0;
   right: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
   /* width: 100%; */
 
   color: var(--color-white);
